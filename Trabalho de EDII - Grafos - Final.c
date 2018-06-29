@@ -68,8 +68,9 @@ void excluirVertice( char u ){ // Função para excluir vértices do grafo
         return ;
     }
     if ( u > n ){
-    	
+        printf( "\n*********************************\n" );    	
         printf( "Vértice não presente no grafo.\n" );
+        printf( "*********************************\n" );
         return ;
     }
     for ( i = u;i <= n - 1;i++ )
